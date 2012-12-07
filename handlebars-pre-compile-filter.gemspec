@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/handlebars-pre-compile-filter/version', __FILE__)
+require File.expand_path('../lib/rake-pipeline-web-filters/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Steven Jabour"]
@@ -17,5 +17,6 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "rake-pipeline", "~> 0.6"
   gem.add_dependency "rack"
-  gem.add_development_dependency "therubyracer"
+  
+  gem.add_development_dependency "handlebars_pre_compile_filter"
 end

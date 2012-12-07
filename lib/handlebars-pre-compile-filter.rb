@@ -9,5 +9,5 @@ module Rake
   end
 end
 
-require "handlebars-pre-compile-filter/version"
-require "handlebars-pre-compile-filter/handlebars_pre_compile_filter"
+require "rake-pipeline-web-filters/version"
+require "rake-pipeline-web-filters/handlebars_pre_compile_filter"
