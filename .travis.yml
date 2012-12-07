@@ -6,4 +6,4 @@ bundler_args: --without docs
 
 notifications:
   email:
-    - steve@stevejabour.me
+    - atsjj@stevejabour.me

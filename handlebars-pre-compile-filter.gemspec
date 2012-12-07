@@ -3,7 +3,7 @@ require File.expand_path('../lib/handlebars-pre-compile-filter/version', __FILE_
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Steven Jabour"]
-  gem.email         = ["steve@stevejabour.me"]
+  gem.email         = ["atsjj@stevejabour.me"]
   gem.description   = %q{An extension to HandlebarsFilter that helps to pre-compile Handlebar templates.}
   gem.summary       = %q{An extension to HandlebarsFilter that helps to pre-compile Handlebar templates.}
   gem.homepage      = "http://github.com/atsjj/handlebars-pre-compile-filter"
