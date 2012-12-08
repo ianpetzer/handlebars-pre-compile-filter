@@ -4,8 +4,23 @@ require File.expand_path('../lib/rake-pipeline-web-filters/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Steven Jabour"]
   gem.email         = ["atsjj@stevejabour.me"]
-  gem.description   = %q{An extension to HandlebarsFilter that helps to pre-compile Handlebar templates.}
-  gem.summary       = %q{An extension to HandlebarsFilter that helps to pre-compile Handlebar templates.}
+  gem.description   = <<-EOF
+    Handlebars pre-compile filter does exactly that: 
+    pre-compiles handlebars templates into javascript code,
+    so the runtime doesn't have to do all the work.
+    
+    Reduce execution time on your Handlebars utilizin' apps
+    with this nifty gem. Best used with EmberJS!
+    
+    This is a sub-class to the existing HandlebarsFilter in
+    the rake-pipeline-web-filters repo managed by Yehuda.
+    https://github.com/wycats/rake-pipeline-web-filters
+    
+    This gem bundles the necessary Ember scripts to compile 
+    handlebars templates headlessly. Hopefully this just
+    enables you to be lazier!
+  EOF
+  gem.summary       = %q{Magically turns a Handlebars template from a string into javascript.}
   gem.homepage      = "http://github.com/atsjj/handlebars-pre-compile-filter"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
@@ -23,5 +38,4 @@ Gem::Specification.new do |gem|
   
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "handlebars-pre-compile-filter"
-  # gem.add_development_dependency "therubyracer"
 end
