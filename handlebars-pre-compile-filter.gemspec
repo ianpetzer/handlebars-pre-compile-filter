@@ -6,19 +6,19 @@ Gem::Specification.new do |gem|
   gem.email         = ["atsjj@stevejabour.me"]
   gem.description   = <<-EOF
     Handlebars pre-compile filter does exactly that: 
-    pre-compiles handlebars templates into javascript code,
-    so the runtime doesn't have to do all the work.
-    
+    pre-compiles a handlebars template into javascript,
+    so the client doesn't have to do all that work.
+
     Reduce execution time on your Handlebars utilizin' apps
     with this nifty gem. Best used with EmberJS!
-    
+
     This is a sub-class to the existing HandlebarsFilter in
     the rake-pipeline-web-filters repo managed by Yehuda.
     https://github.com/wycats/rake-pipeline-web-filters
-    
+
     This gem bundles the necessary Ember scripts to compile 
-    handlebars templates headlessly. Hopefully this just
-    enables you to be lazier!
+    templates headless-ly. Hopefully this allows you to
+    be even lazier!
   EOF
   gem.summary       = %q{Magically turns a Handlebars template from a string into javascript.}
   gem.homepage      = "http://github.com/atsjj/handlebars-pre-compile-filter"
@@ -31,7 +31,7 @@ Gem::Specification.new do |gem|
   gem.version       = Rake::Pipeline::Web::Filters::HBPCF_VERSION
 
   gem.add_dependency "rake-pipeline", "~> 0.6"
-  gem.add_dependency "rake-pipeline-web-filters"
+  gem.add_dependency "rake-pipeline-web-filters", "~> 0.7"
   gem.add_dependency "rack"
   
   gem.add_runtime_dependency "execjs"

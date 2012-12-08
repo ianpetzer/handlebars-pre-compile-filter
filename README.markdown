@@ -1,8 +1,8 @@
 # Rake::Pipeline::Web::Filters::HandlebarsPreCompileFilter [![Build Status](https://secure.travis-ci.org/atsjj/handlebars-pre-compile-filter.png?branch=master)](http://travis-ci.org/atsjj/handlebars-pre-compile-filter)
 
 Handlebars pre-compile filter does exactly that: 
-pre-compiles handlebars templates into javascript code,
-so the runtime doesn't have to do all the work.
+pre-compiles a handlebars template into javascript,
+so the client doesn't have to do all that work.
 
 Reduce execution time on your Handlebars utilizin' apps
 with this nifty gem. Best used with EmberJS!
@@ -12,8 +12,8 @@ the rake-pipeline-web-filters repo managed by Yehuda.
 https://github.com/wycats/rake-pipeline-web-filters
 
 This gem bundles the necessary Ember scripts to compile 
-handlebars templates headless-ly. Hopefully this enables 
-you to be lazier!
+templates headless-ly. Hopefully this allows you to
+be even lazier!
 
 Here's a quick example of a realistic project's Assetfile:
 
