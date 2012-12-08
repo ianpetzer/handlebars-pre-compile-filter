@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source :rubygems
 
 gem "rake-pipeline", :git => "git://github.com/livingsocial/rake-pipeline.git"
 
