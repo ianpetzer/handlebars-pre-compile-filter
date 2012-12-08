@@ -19,8 +19,9 @@ Gem::Specification.new do |gem|
   gem.add_dependency "rake-pipeline-web-filters"
   gem.add_dependency "rack"
   
+  gem.add_runtime_dependency "execjs"
+  
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "handlebars-pre-compile-filter"
   gem.add_development_dependency "therubyracer"
-  gem.add_development_dependency "execjs"
 end
