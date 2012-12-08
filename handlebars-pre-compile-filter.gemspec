@@ -31,7 +31,7 @@ Gem::Specification.new do |gem|
   gem.version       = Rake::Pipeline::Web::Filters::HBPCF_VERSION
 
   gem.add_dependency "rake-pipeline", "~> 0.6"
-  gem.add_dependency "rake-pipeline-web-filters", "~> 0.7"
+  gem.add_dependency "rake-pipeline-web-filters"
   gem.add_dependency "rack"
   
   gem.add_runtime_dependency "execjs"
